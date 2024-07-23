@@ -1,0 +1,302 @@
+CRITICAL - 2024-07-22 16:43:11 --> ParseError: syntax error, unexpected token "protected", expecting "," or ";"
+[Method: GET, Route: Planes]
+in APPPATH\Models\PlanesModel.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Models\\PlanesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PlanesModel')
+ 3 APPPATH\Controllers\PlanesController.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PlanesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlanesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:44:04 --> ParseError: syntax error, unexpected token "protected", expecting "," or ";"
+[Method: GET, Route: Planes]
+in APPPATH\Models\PlanesModel.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Models\\PlanesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PlanesModel')
+ 3 APPPATH\Controllers\PlanesController.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PlanesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlanesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:44:30 --> ParseError: syntax error, unexpected token "protected", expecting "," or ";"
+[Method: GET, Route: planes]
+in APPPATH\Models\PlanesModel.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Models\\PlanesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PlanesModel')
+ 3 APPPATH\Controllers\PlanesController.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PlanesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlanesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:44:50 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: planes]
+in APPPATH\Views\planes.php on line 25.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('planes', [], true)
+ 3 APPPATH\Controllers\PlanesController.php(13): view('planes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlanesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:45:38 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: planes]
+in APPPATH\Views\planes.php on line 26.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('planes', [], true)
+ 3 APPPATH\Controllers\PlanesController.php(13): view('planes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlanesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:45:39 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: planes]
+in APPPATH\Views\planes.php on line 26.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('planes', [], true)
+ 3 APPPATH\Controllers\PlanesController.php(13): view('planes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlanesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:54:26 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: lineas]
+in APPPATH\Views\lineas_telefonicas.php on line 23.
+ 1 APPPATH\Views\lineas_telefonicas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lineas_telefonicas', [], true)
+ 5 APPPATH\Controllers\LineasTelefonicasController.php(10): view('lineas_telefonicas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:55:49 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: lineas]
+in APPPATH\Views\lineas_telefonicas.php on line 23.
+ 1 APPPATH\Views\lineas_telefonicas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lineas_telefonicas', [], true)
+ 5 APPPATH\Controllers\LineasTelefonicasController.php(10): view('lineas_telefonicas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:55:49 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: lineas]
+in APPPATH\Views\lineas_telefonicas.php on line 23.
+ 1 APPPATH\Views\lineas_telefonicas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lineas_telefonicas', [], true)
+ 5 APPPATH\Controllers\LineasTelefonicasController.php(10): view('lineas_telefonicas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:55:49 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: lineas]
+in APPPATH\Views\lineas_telefonicas.php on line 23.
+ 1 APPPATH\Views\lineas_telefonicas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lineas_telefonicas', [], true)
+ 5 APPPATH\Controllers\LineasTelefonicasController.php(10): view('lineas_telefonicas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:55:50 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: lineas]
+in APPPATH\Views\lineas_telefonicas.php on line 23.
+ 1 APPPATH\Views\lineas_telefonicas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lineas_telefonicas', [], true)
+ 5 APPPATH\Controllers\LineasTelefonicasController.php(10): view('lineas_telefonicas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:55:50 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: lineas]
+in APPPATH\Views\lineas_telefonicas.php on line 23.
+ 1 APPPATH\Views\lineas_telefonicas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lineas_telefonicas', [], true)
+ 5 APPPATH\Controllers\LineasTelefonicasController.php(10): view('lineas_telefonicas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:55:50 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: lineas]
+in APPPATH\Views\lineas_telefonicas.php on line 23.
+ 1 APPPATH\Views\lineas_telefonicas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lineas_telefonicas', [], true)
+ 5 APPPATH\Controllers\LineasTelefonicasController.php(10): view('lineas_telefonicas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:55:50 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: lineas]
+in APPPATH\Views\lineas_telefonicas.php on line 23.
+ 1 APPPATH\Views\lineas_telefonicas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lineas_telefonicas', [], true)
+ 5 APPPATH\Controllers\LineasTelefonicasController.php(10): view('lineas_telefonicas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:55:50 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: lineas]
+in APPPATH\Views\lineas_telefonicas.php on line 23.
+ 1 APPPATH\Views\lineas_telefonicas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lineas_telefonicas', [], true)
+ 5 APPPATH\Controllers\LineasTelefonicasController.php(10): view('lineas_telefonicas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:55:50 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: lineas]
+in APPPATH\Views\lineas_telefonicas.php on line 23.
+ 1 APPPATH\Views\lineas_telefonicas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lineas_telefonicas', [], true)
+ 5 APPPATH\Controllers\LineasTelefonicasController.php(10): view('lineas_telefonicas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:55:51 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: lineas]
+in APPPATH\Views\lineas_telefonicas.php on line 23.
+ 1 APPPATH\Views\lineas_telefonicas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lineas_telefonicas', [], true)
+ 5 APPPATH\Controllers\LineasTelefonicasController.php(10): view('lineas_telefonicas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:55:51 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: lineas]
+in APPPATH\Views\lineas_telefonicas.php on line 23.
+ 1 APPPATH\Views\lineas_telefonicas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lineas_telefonicas', [], true)
+ 5 APPPATH\Controllers\LineasTelefonicasController.php(10): view('lineas_telefonicas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 16:55:51 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: lineas]
+in APPPATH\Views\lineas_telefonicas.php on line 23.
+ 1 APPPATH\Views\lineas_telefonicas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Views\\lineas_telefonicas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lineas_telefonicas', [], true)
+ 5 APPPATH\Controllers\LineasTelefonicasController.php(10): view('lineas_telefonicas')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LineasTelefonicasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LineasTelefonicasController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 17:07:31 --> ParseError: syntax error, unexpected token "protected", expecting "," or ";"
+[Method: GET, Route: clientes]
+in APPPATH\Models\ClientesModel.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_proyectos\\ci4_repaso\\app\\Models\\ClientesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ClientesModel')
+ 3 APPPATH\Controllers\ClientesController.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ClientesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 17:11:16 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: planes]
+in APPPATH\Views\planes.php on line 32.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('planes', [], true)
+ 3 APPPATH\Controllers\PlanesController.php(13): view('planes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlanesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 17:11:17 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: planes]
+in APPPATH\Views\planes.php on line 32.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('planes', [], true)
+ 3 APPPATH\Controllers\PlanesController.php(13): view('planes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlanesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-22 17:11:56 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: planes]
+in APPPATH\Views\planes.php on line 32.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('planes', [], true)
+ 3 APPPATH\Controllers\PlanesController.php(13): view('planes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PlanesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlanesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
