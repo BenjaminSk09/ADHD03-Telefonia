@@ -9,7 +9,7 @@
   </head>
   <body>
     <h1>Planes</h1>
-    <div class="container">
+    <div class="container text-center">
       <div class="row">
         <div class="col">
           <h1>Modificar plan</h1>
