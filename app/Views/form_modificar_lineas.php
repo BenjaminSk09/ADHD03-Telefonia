@@ -33,7 +33,8 @@
         <div class="mb-3">
             <label for="txtIdPlan" class="form-label">Id del plan</label>
             <input type="text" id="txtIdPlan" name="txtIdPlan" class="form-control" placeholder="ingrese los minutos que desea"
-             value="<?=$datos['plan_id']?>">
+             value="<?=$datos['plan_id']?>"readonly>
+            
         </div>
         <div class="mb-3">
             <label for="txtIdCliente" class="form-label">id del cliente</label>
