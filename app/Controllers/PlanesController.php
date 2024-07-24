@@ -46,4 +46,34 @@ class PlanesController extends BaseController
         return redirect()->route('planes');
     }
     
+    public function nuevoPlan(): string
+    {
+        return view('form_agregar_plan');
+    }
+
+    public function agregarPlan()
+    {
+        $planid = $this->request->getVar('txtPlanId');
+        //echo "<br>Id = ". $id;
+        $nombre=$this->request->getVar('txtNombre');
+        //echo "<br>nombre = ". $nombre;
+        $pagomensual= $this->request->getVar('txtPagoMensual');
+        //echo "<br>Pago =". $pago;
+        $cantidadminutos= $this->request->getVar('txtCantidadMinutos');
+        //echo "<br>Minutos = ". $minutos;
+        $cantidadmensajes= $this->request->getvar('txtCantidadMensajes');
+        //echo "<br>Mensajes = ". $mensajes;
+
+        $planes = new PlanesModel();
+        $datos = [
+            'plan_id' => $planid,
+            'nombre' =>$nombre,
+            'pago_mensual' => $pagomensual,
+            'cantidad_minutos' => $cantidadminutos,
+            'cantidad_mensajes' => $cantidadmensajes,
+        ];
+        $planes->insert($datos);
+        return redirect()->route('planes');
+    }
+
 }
