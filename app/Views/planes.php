@@ -12,7 +12,7 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 100vh; /* Ajusta la altura según tus necesidades */
+            height: 100vh; /* Ajusta la altura según  necesidades */
         }
     </style>
   </head>
