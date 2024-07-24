@@ -15,3 +15,7 @@ $routes->get('lineas','LineasTelefonicasController::index');
 $routes->get('eliminar_plan/(:num)','PlanesController::eliminarPlan/$1');
 $routes->get('buscar_plan/(:num)','PlanesController::buscarPlan/$1');
 $routes->post('modificar_plan','PlanesController::modificarPlan');
+
+$routes->get('eliminar_linea/(:num)','LineasTelefonicasController::eliminarLineas/$1');
+$routes->get('buscar_linea/(:num)','LineasTelefonicasController::buscarLineas/$1');
+$routes->post('modificar_linea', 'LineasTelefonicasController::modificarLineas');
