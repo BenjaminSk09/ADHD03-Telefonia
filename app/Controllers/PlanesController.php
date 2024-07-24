@@ -13,7 +13,8 @@ class PlanesController extends BaseController
         return view('planes',$datos);
     }
     //Metodo de Eliminar (importante definir desde el principio la PrimaryKey en los Modelos)
-    public function eliminarPlan($id=null){
+    public function eliminarPlan($id=null)
+    {
         //echo "id o codigo:".$id; sirve para ver si funciona el boton
         $planes = new PlanesModel();
         $planes->delete($id);
