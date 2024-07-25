@@ -13,7 +13,7 @@
 <body class="bg-dark text-white">
     <h1 class="text-center display-1 text-white">Lineas telefonicas</h1>
     <div class="container text-center">
-        <a href="nueva_linea" class="btn"><i class="bi bi-cloud-plus-fill text-white"> NUEVA LINEA TELEFONICA</i></a>
+        <a href="nueva_linea" class="btn"><i class="bi bi-person-add text-white"> NUEVA LINEA TELEFONICA</i></a>
         <table class="table table-border table-bordered border-secondary border-opacity-50  ">
             <thead>
                 <tr>
@@ -38,7 +38,7 @@
                         <a href="<?= base_url('buscar_linea/').$lineas['no_telefono']?>" class="btn btn-info"><i
                                 class="bi bi-arrow-clockwise">Actualizar</i></a>
                         <a href="<?= base_url('eliminar_linea/').$lineas['no_telefono']?>" class="btn btn-danger"><i
-                                class="bi bi-arrow-clockwise">Eliminar</i></a>
+                                class="bi bi-person-fill-x">Eliminar</i></a>
                     </td>
                 </tr>
                 <?php endforeach; ?>

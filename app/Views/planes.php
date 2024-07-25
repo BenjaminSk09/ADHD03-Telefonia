@@ -23,7 +23,7 @@
 <body class="fondo-imagen">
     <h1 class="text-center display-1 text-white">Planes</h1>
     <div class="container text-center">
-    <a href="nuevo_plan" class="btn"><i class="bi bi-cloud-plus-fill text-white"> NUEVOS PLANES</i></a>
+    <a href="nuevo_plan" class="btn"><i class="bi bi-person-add text-white"> NUEVOS PLANES</i></a>
         <table class="table table-border table-bordered border-secondary border-opacity-50  ">
             <thead class="table-dark ">
                 <tr>
