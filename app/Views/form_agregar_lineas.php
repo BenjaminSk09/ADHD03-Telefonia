@@ -8,18 +8,28 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+    .fondo-imagen {
+        background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?cs=srgb&dl=pexels-stywo-1261728.jpg&fm=jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        /* Ajusta la altura según  necesidades */
+    }
+    </style>
 </head>
 
-<body>
-<div class="container text-center">
-    <h1>Agregar Lineas</h1>
-        <div class="row">
-            <div class="col col-4">
+<body class="fondo-imagen">
+    <div class="container text-center">
+        <h1>Agregar Lineas</h1>
+        <div class="row justify-content-center">
+            <div class="col col-4 border">
                 <form action="agregar_linea" method="post">
                     <div class="mb-3">
                         <label for="txtNoTelefono" class="form-label">No telefono</label>
                         <input type="text" id="txtNoTelefono" name="txtNoTelefono" class="form-control"
-                            placeholder="ingrese el id del plan" >
+                            placeholder="ingrese el id del plan">
                     </div>
                     <div class="mb-3">
                         <label for="txtFecha" class="form-label">Fecha de Pago</label>

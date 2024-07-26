@@ -6,12 +6,22 @@
     <title>Lineas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+    .fondo-imagen {
+        background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?cs=srgb&dl=pexels-stywo-1261728.jpg&fm=jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        /* Ajusta la altura según  necesidades */
+    }
+    </style>
   </head>
-  <body>
-    <h1>Lineas</h1>
+  <body class="fondo-imagen">
+    <br>
     <div class="container text-center">
-      <div class="row">
-        <div class="col">
+      <div class="row justify-content-center">
+        <div class="col-4 border">
           <h1>Modificar plan</h1>
           <form action="<?=base_url('modificar_linea')?>" method="post">
         <div class="mb-3">      

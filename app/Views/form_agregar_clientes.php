@@ -9,17 +9,28 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+<style>
+.fondo-imagen {
+    background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?cs=srgb&dl=pexels-stywo-1261728.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* Ajusta la altura según  necesidades */
+}
+</style>
+</head>
 
-<body>
-<div class="container text-center">
-    <h1>Agregar clientes</h1>
+<body class="fondo-imagen">
+    <div class="container text-center">
+        <h1>Agregar clientes</h1>
         <div class="row justify-content-center">
             <div class="col-4 border p-4">
-            <form action="agregar_clientes" method="post" >
+                <form action="agregar_clientes" method="post">
                     <div class="mb-3">
                         <label for="txtClienteId" class="form-label">Id del cliente</label>
                         <input type="text" id="txtClienteId" name="txtClienteId" class="form-control"
-                            placeholder="ingrese el id del Cliente" >
+                            placeholder="ingrese el id del Cliente">
                     </div>
                     <div class="mb-3">
                         <label for="txtApellido" class="form-label">Apellido</label>
@@ -42,7 +53,7 @@
                         <input type="text" id="txtCalle" name="txtCalle" class="form-control"
                             placeholder="ingrese su Calle o avenida">
                     </div>
-                    
+
                     <div class="mb-3">
                         <label for="txtNoCasa" class="form-label">No de Casa</label>
                         <input type="text" id="txtNoCasa" name="txtNoCasa" class="form-control"
@@ -54,7 +65,7 @@
                         <input type="text" id="txtZona" name="txtZona" class="form-control"
                             placeholder="ingrese su zona">
                     </div>
-                    
+
                     <div class="mb-3  ">
                         <input type="submit" class="btn btn-success form-control" value="Guardar Cambios">
                     </div>
