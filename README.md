@@ -1,3 +1,16 @@
+# Acceso a las Paginas
+
+Para poder acceder a cada una de las paginas se debera insertar los nombres de las rutas 
+en el link
+
+dentro de cada pagina se podra encontrar botones de eliminar, modificar y agregar nuevos elementos a la base de datos
+dependera de la neceidad del usuario 
+
+Rutas
+
+planes, clientes, lineas.
+
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
